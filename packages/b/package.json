@@ -1,6 +1,6 @@
 {
   "name": "@gamejoye/package-b",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "包b用于学习lerna",
   "author": "gamejoye <gamejoye@gmail.com>",
   "homepage": "",

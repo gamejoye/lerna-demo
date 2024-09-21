@@ -1,6 +1,6 @@
 {
   "name": "@gamejoye/package-cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "packge cli用于学习lerna",
   "author": "gamejoye <gamejoye@gmail.com>",
   "homepage": "",
@@ -25,8 +25,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@gamejoye/package-a": "^0.1.3",
-    "@gamejoye/package-b": "^0.1.3",
+    "@gamejoye/package-a": "^0.1.4",
+    "@gamejoye/package-b": "^0.1.4",
     "yargs": "^17.7.2"
   },
   "type": "module",
