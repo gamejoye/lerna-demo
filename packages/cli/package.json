@@ -1,0 +1,36 @@
+{
+  "name": "@gamejoye/package-cli",
+  "version": "0.0.0",
+  "description": "packge cli用于学习lerna",
+  "author": "gamejoye <gamejoye@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/cli.js",
+  "module": "dist/cli.module.js",
+  "bin": {
+    "lerna-cli": "bin/cli"
+  },
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@gamejoye/package-a": "^1.0.0",
+    "@gamejoye/package-b": "^1.0.0",
+    "yargs": "^17.7.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

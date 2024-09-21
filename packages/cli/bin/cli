@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+'use strict';
+
+import cli from '../src/cli.js';
+import a from '@gamejoye/package-a';
+import b from '@gamejoye/package-b';
+
+console.log(a())
+console.log(b())
+
+cli().parse(process.argv.slice(2));
