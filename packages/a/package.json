@@ -1,6 +1,6 @@
 {
   "name": "@gamejoye/package-a",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "包a用于学习lerna",
   "author": "gamejoye <gamejoye@gmail.com>",
   "homepage": "",
@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "chalk": "^5.3.0"
-  }
+  },
+  "gitHead": "ddf2193a516edf0ba34f73fd6a11deb0e8f38b3f"
 }
