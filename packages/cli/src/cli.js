@@ -1,6 +1,7 @@
 import factory from 'yargs/yargs';
 
 export default function cli(cwd) {
+  console.log('version...');
   const parser = factory(null, cwd);
 
   parser.alias('h', 'help');
