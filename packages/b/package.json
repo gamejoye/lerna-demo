@@ -1,6 +1,6 @@
 {
   "name": "@gamejoye/package-b",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "包b用于学习lerna",
   "author": "gamejoye <gamejoye@gmail.com>",
   "homepage": "",
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "node ./__tests__/b.test.js"
   },
-  "gitHead": "ddf2193a516edf0ba34f73fd6a11deb0e8f38b3f"
+  "gitHead": "d8f5fcba12595865bde2f026e5169d8d7decc7ca"
 }
